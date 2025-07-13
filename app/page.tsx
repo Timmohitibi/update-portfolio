@@ -123,7 +123,13 @@ export default function Portfolio() {
       title: "Pawa Weather App",
       description:
         "A modern weather application that fetches real-time weather data using Laravel (backend) and Next.js (frontend). Features a sleek interface built with Ripple UI and OpenWeather API.",
-      technologies: ["Laravel", "Next.js", "TypeScript", "Ripple UI", "OpenWeather API"],
+      technologies: [
+        "Laravel",
+        "Next.js",
+        "TypeScript",
+        "Ripple UI",
+        "OpenWeather API",
+      ],
       github: "https://github.com/Timmohitibi/Pawa-Weather-App",
       demo: null,
     },
@@ -136,7 +142,6 @@ export default function Portfolio() {
       demo: null,
     },
   ];
-  
 
   const skills = {
     "Programming Languages": [
@@ -164,36 +169,54 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-  <title>Timothy Itibi | Software Developer Portfolio</title>
-  <meta
-    name="description"
-    content="Explore Timothy Itibi's portfolio featuring full-stack software development projects, cloud infrastructure tools, and networking solutions."
-  />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="index, follow" />
+        <meta charset="UTF-8" />
+        <meta name="title" content="Timothy Itibi | Software Engineer" />
+        <meta
+          name="description"
+          content="Explore Timothy Itibi’s developer portfolio showcasing full-stack projects, cloud solutions and networking tools."
+        />
+        <meta
+          name="keywords"
+          content="Timothy Itibi, software developer, full-stack developer, cloud engineer, web developer, portfolio, networking tools, personal website, Kenya developer, itibi, Gaithuma, junior-developer"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <meta name="author" content="Timothy Itibi" />
+        <meta name="revisit-after" content="7 days" />
 
-  {/* Open Graph / Facebook */}
-  <meta property="og:title" content="Timothy Itibi | Software Developer" />
-  <meta
-    property="og:description"
-    content="Projects, skills, and contact info for Timothy Itibi, a passionate full-stack developer."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="/thumbnail.png" />
-  <meta property="og:url" content="https://your-portfolio-domain.com" />
+        {/* Open Graph / Facebook */}
+        <meta
+          property="og:title"
+          content="Timothy Itibi | Software Developer"
+        />
+        <meta
+          property="og:description"
+          content="Projects, skills, and contact info for Timothy Itibi, a passionate full-stack developer."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/thumbnail.png" />
+        <meta property="og:url" content="https://timothy-itibi.vercel.app/" />
 
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Favicon and Manifest */}
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Itibi" />
-  <link rel="manifest" href="/site.webmanifest" />
-</Head>
-
+        {/* Favicon and Manifest */}
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96x96.png"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="Itibi" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 transition-colors duration-300">
         {/* Navigation */}
