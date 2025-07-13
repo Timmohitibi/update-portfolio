@@ -169,7 +169,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="title" content="Timothy Itibi | Software Engineer" />
         <meta
           name="description"
@@ -183,6 +183,8 @@ export default function Portfolio() {
         <meta name="language" content="English" />
         <meta name="author" content="Timothy Itibi" />
         <meta name="revisit-after" content="7 days" />
+          <meta name="google-site-verification" content="google316eb994e0133f89.html" />
+
 
         {/* Open Graph / Facebook */}
         <meta
