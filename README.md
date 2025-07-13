@@ -1,30 +1,42 @@
-# Timothy itibi portfolio
-
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/timothy-itibis-projects/v0-timothy-itibi-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/VC31e0TIV44)
+# Timothy Itibi Portfolio
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This is the personal portfolio of Timothy Itibi, showcasing projects, technical skills, and contact information. Built with Next.js and Tailwind CSS, it features a modern, responsive design and smooth user experience.
 
-## Deployment
+## Features
+- Dark/Light mode with theme persistence
+- Smooth scrolling navigation
+- Project showcase with GitHub links
+- Responsive design for all devices
+- Contact form (FormSubmit integration)
+- Toast notifications for form feedback
+- Optimized for performance and SEO
 
-Your project is live at:
+## Tech Stack
+- [Next.js 15](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
 
-**[https://vercel.com/timothy-itibis-projects/v0-timothy-itibi-portfolio](https://vercel.com/timothy-itibis-projects/v0-timothy-itibi-portfolio)**
+## Getting Started
 
-## Build your app
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPO.git
+   cd YOUR-NEW-REPO
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/VC31e0TIV44](https://v0.dev/chat/projects/VC31e0TIV44)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
