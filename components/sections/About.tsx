@@ -43,7 +43,7 @@ export const About: React.FC = () => (
           <CardContent>
             <p className="text-slate-600 dark:text-slate-400">
               Proficient in multiple programming languages and frameworks.
-              Strong focus on clean code, testing, and agile development
+              Strong focus on clean code, testing and agile development
               practices.
             </p>
           </CardContent>
@@ -56,9 +56,8 @@ export const About: React.FC = () => (
           </CardHeader>
           <CardContent>
             <p className="text-slate-600 dark:text-slate-400">
-              Deep understanding of networking protocols, security principles,
-              and network optimization techniques for robust system design. for
-              robust system design.
+              Deep understanding of networking protocols, security principles
+              and network optimization techniques for robust system design.
             </p>
           </CardContent>
         </Card>
